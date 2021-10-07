@@ -117,7 +117,7 @@ img{
 }
 .info :last-child :last-child{
     position: absolute;
-    left: 55px;
+    left: 55px; 
     color: black;
     display: inline-block;
 }
