@@ -11,14 +11,12 @@ img{
 .container{
     position: relative;
     width: 60%;
-    height: 1000px;
+    height: 1050px;
     margin: auto;
-    background-color: palevioletred;
 }
 
 .row{
     position: relative;
-    background-color: tomato;
     height: 505px;;
     text-align: center;
 }
