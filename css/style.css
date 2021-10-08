@@ -11,20 +11,19 @@ img{
 .container{
     position: relative;
     width: 60%;
-    height: 1050px;
     margin: auto;
 }
 
 .row{
     position: relative;
-    height: 505px;;
+    height: 505px;
     text-align: center;
 }
 
 
 .casella-shop{
     display: inline-block;
-    width: 300px;
+    width: 30%;
     position: relative;
     left: 15px;
     top: 15px;
@@ -51,30 +50,36 @@ img{
 .percentuale{
     background-color: #eb0037;
     display: inline-block;
-    border-radius: 70%;
     position: absolute;
     bottom: 40px;
-    left: 3px;
+    left: 0;
 }
 
 .percentuale :first-child{
     color: white;
     font-size: 15px;
     padding: 3px;
+    
 }
 
 .scritta{
+    margin-left: 5px;
     background-color: #00875a;
     display: inline-block;
     position: absolute;
-    bottom: 10px;
-    left: 0;
 }
 
-.scritta :first-child{
+.scritta-diversa{
+    background-color: #00875a;
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+    bottom: 40px;
+}
+
+.scritta, .scritta-diversa :first-child{
     color: white;
     font-size: 15px;
-    padding: 3px;
 }
 
 .casella-shop .img-top{
